@@ -1,0 +1,53 @@
+.footer-area p{
+  font-size: 14px;
+}
+.social-links {
+    margin-top: 5px;
+  }
+  
+  .social-links a {
+    font-size: 16px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: #212529;
+    line-height: 1;
+    margin-right: 8px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+  }
+  
+  .social-links a:hover {
+    background-color: #7DCE13;
+    color: white;
+  }
+  .card-section img{
+    padding: 7px;
+    height: 40px;
+    width: 50px;
+  }
+  @media only screen and (max-width: 425px) {
+    .footer-area {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  
+    .footer-text {
+      border: 0;
+    }
+  
+    .footer-text h4 {
+      font-size: 14px;
+    }
+  
+    .footer-text h6 {
+      font-size: 12px;
+    }
+  
+    .footer-text input {
+      font-size: 12px;
+    }
+  }

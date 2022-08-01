@@ -1,0 +1,97 @@
+.category {
+    height: 530px;
+    width: 100%;
+    border: 1px solid #c0bfbf;
+    background-color: #fff;
+}
+
+.carousel-banner {
+    height: 530px;
+}
+
+.category-list {
+    /* border-bottom: 1px solid #c0bfbf; */
+    padding: 0 5px;
+}
+.category-list:hover {
+   background-color: #7DCE13;
+   color: white;
+}
+
+.carousel-header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    margin: auto;
+}
+
+.carousel-img {
+    height: 455px;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.carousel-caption {
+    z-index: 900;
+}
+
+.caption-text {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.carousel-inner {
+    position: relative;
+}
+
+.control-btn {
+    position: absolute;
+    bottom: 4%;
+    left: 10%;
+}
+
+.carousel-control-btn {
+    height: 20px;
+    width: 16px;
+    background-color: #7DCE13;
+    padding: 15px;
+}
+
+.carousel-control-prev {
+    position: relative;
+}
+
+.carousel-control-next {
+    position: absolute;
+    left: 45px;
+}
+
+/* carousel indicators */
+.carousel-indicators [data-bs-target] {
+    border: 2px solid white;
+    border-radius: 55%;
+    height: 10px;
+    width: 10px;
+    background-color: whitesmoke;
+    z-index: 900;
+    margin-bottom: 15px;
+}
+
+.carousel-indicators .active {
+    background-color: #7DCE13;
+}
+
+.cart-icon {
+    position: relative;
+}
+
+.cart-text {
+    position: absolute;
+    background: #7DCE13;
+    font-size: 8px;
+    color: white;
+    padding: 1px 6px;
+    border-radius: 50%;
+    z-index: -99;
+}
