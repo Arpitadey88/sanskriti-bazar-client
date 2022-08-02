@@ -5,12 +5,16 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <div className='container my-5'>
-            <div className='row'>
+        <div className='container my-md-5 my-2'>
+            <div className='row g-md-5 g-3'>
                 <div className="col-md-3">
                     <div className="category">
-                        <p className="category-list text-white py-2" style={{ backgroundColor: '#7DCE13' }}> <i className="fa fa-bars fs-6"></i> <span className='ps-5'>All Products</span> <i className="fa fa-angle-down fs-5 ps-5"></i></p>
-                        <div className="">
+                        <div className="d-flex justify-content-between align-items-center py-2 px-3 text-white" style={{ backgroundColor: '#7DCE13' }}>
+                            <i className="fa fa-bars fs-6"></i>
+                            <span>All Products</span>
+                            <i className="fa fa-angle-down fs-5 "></i>
+                        </div>
+                        <div className="category-items">
                             <p className="category-list"><span >Ayurvedic</span></p>
                             <p className="category-list"><span >Beauty Products</span></p>
                             <p className="category-list"><span >Food &amp; Beverages </span></p>
@@ -22,7 +26,7 @@ const Banner = () => {
                             <p className="category-list"><span >Handicrafts</span></p>
                             <p className="category-list"><span >Clothing</span></p>
                             <p className="category-list"><span >Devotional &amp; Bhakti</span></p>
-                            <p className="category-list"><span >Books &amp; Scripts</span></p>
+                            <p className="category-list border-0"><span >Books &amp; Scripts</span></p>
                         </div>
                     </div>
                 </div>

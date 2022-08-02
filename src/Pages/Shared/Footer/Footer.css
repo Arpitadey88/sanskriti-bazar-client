@@ -1,41 +1,78 @@
-.footer-area p{
+.footer-area p {
   font-size: 14px;
 }
+
 .social-links {
-    margin-top: 5px;
+  margin-top: 5px;
+}
+
+.social-links a {
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #212529;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.social-links a:hover {
+  background-color: #7DCE13;
+  color: white;
+}
+
+.card-section img {
+  padding: 7px;
+  height: 32px;
+  width: 60px;
+}
+
+@media only screen and (max-width: 425px) {
+  .footer-area {
+    margin: 0 !important;
+    padding: 0 !important;
   }
-  
-  .social-links a {
-    font-size: 16px;
-    text-decoration: none;
+
+  .footer-area h4 {
+    font-size: 17px;
+  }
+  .footer-area p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  .logo-footer {
+    text-align: center;
+    height: 40px;
+  }
+
+  .subscribe-btn {
+    padding: 4px;
+    font-size: 14px;
+  }
+
+  .social-area h5 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .social-links {
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: white;
-    color: #212529;
-    line-height: 1;
-    margin-right: 8px;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
   }
-  
-  .social-links a:hover {
-    background-color: #7DCE13;
-    color: white;
-  }
-  .card-section img{
+
+  .card-section img {
     padding: 7px;
-    height: 40px;
-    width: 50px;
+    height: 35px;
+    width: 45px;
   }
-  @media only screen and (max-width: 425px) {
-    .footer-area {
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-  
-    .footer-text {
+
+  /* .footer-text {
       border: 0;
     }
   
@@ -49,5 +86,6 @@
   
     .footer-text input {
       font-size: 12px;
-    }
-  }
+    } */
+
+}
